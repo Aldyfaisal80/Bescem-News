@@ -21,27 +21,42 @@
 
 <body data-bs-theme="dark">
     <!-- Navigasi -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center" style="width: 100%; height: 80px;" id="mainNav">
-        <div class="container px-4 px-lg-5">
-          <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="../index.html">
-            <img class="rounded" style="width: 40px; line-height: 0;" src="../public/assets/image/icon_BESCEM.png" alt="">
-            BESCEM NEWS
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Sample Post</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <nav
+    class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center align-items-center"
+    style="width: 100%; height: 80px;" id="mainNav">
+    <div class="container px-4 px-lg-5">
+      <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="index.html">
+        <img class="rounded" style="width: 40px; line-height: 0;" src="./public/assets/image/icon_BESCEM.png" alt="">
+        BESCEM NEWS
+      </a>
+      <div class="btn-group">
+        <button class="btn nav-link btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li>
+            <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+              data-bs-theme-value="light">
+              <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill"></i>
+              Light Mode
+            </button>
+          </li>
+          <li>
+            <button class="dropdown-item d-flex align-items-center opacity-75" type="button" data-bs-theme-value="dark">
+              <i class="bi bi-moon-fill me-2" data-theme-icon="bi-moon-fill"></i>
+              Dark Mode
+            </button>
+          </li>
+          <li>
+            <button class="dropdown-item d-flex align-items-center opacity-75" type="button" data-bs-theme-value="auto">
+              <i class="bi bi-circle-half me-2" data-theme-icon="bi-circle-half"></i>
+              Sistem Theme
+            </button>
+          </li>
+        </ul>
+      </div>
+  </nav>
     <!-- Sub Judul -->
     <header class="img-fluid mb-5 p-4 d-flex flex-column justify-content-center align-content-center"
     style="background-image: url(../public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
@@ -99,8 +114,8 @@
         AOS.init();
     </script>
     <!-- JS -->
-    <script src="./bootstrap/js/bootstrap.js"></script>
-    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

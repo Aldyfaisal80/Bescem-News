@@ -21,34 +21,51 @@
 
 <body data-bs-theme="dark">
     <!-- Navigasi -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center" style="width: 100%; height: 80px;" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center align-items-center"
+        style="width: 100%; height: 80px;" id="mainNav">
         <div class="container px-4 px-lg-5">
-          <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="../index.html">
-            <img class="rounded" style="width: 40px; line-height: 0;" src="../public/assets/image/icon_BESCEM.png" alt="">
-            BESCEM NEWS
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Sample Post</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="index.html">
+                <img class="rounded" style="width: 40px; line-height: 0;" src="./public/assets/image/icon_BESCEM.png"
+                    alt="">
+                BESCEM NEWS
+            </a>
+            <div class="btn-group">
+                <button class="btn nav-link btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="light">
+                            <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill"></i>
+                            Light Mode
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="dark">
+                            <i class="bi bi-moon-fill me-2" data-theme-icon="bi-moon-fill"></i>
+                            Dark Mode
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="auto">
+                            <i class="bi bi-circle-half me-2" data-theme-icon="bi-circle-half"></i>
+                            Sistem Theme
+                        </button>
+                    </li>
+                </ul>
+            </div>
+    </nav>
     <!-- Sub Judul -->
     <header class="img-fluid mb-5 p-4 d-flex flex-column justify-content-center align-content-center"
-    style="background-image: url(../public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
-    <div class="container position-relative px-4 px-lg-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-          <div class="site-heading">
+        style="background-image: url(../public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading">
                         <h1>5 Poin Penting Putusan MK yang Tolak Gugatan Sengketa Pilpres Ganjar dan Anies</h1>
                         <span class="meta">
                             <b>Kompas.com</b> - 23/04/2024, 06:53 WIB
@@ -63,52 +80,102 @@
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7" style="text-align: justify;">
-                    <p><b>JAKARTA, KOMPAS.com </b> - Mahkamah Konstitusi (MK) telah memutus menolak permohonan sengketa Pilpres 2024 yang diajukan Anies Baswedan-Muhaimin Iskandar dan Ganjar Pranowo-Mahfud MD dalam sidang pembacaan putusan, Senin (22/4/2024).</p>
-                    <p>MK menyatakan seluruh dalil permohonan sengketa itu tidak beralasan menurut hukum, sehingga majelis hakim menolak permohonan para pemohon itu seluruhnya.</p>
-                    <p>Tiga hakim, yaitu Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat, menyampaikan ketidaksetujuan melalui pendapat berbeda (dissenting opinion), tetapi jumlah mereka kalah banyak (3 dari 8) dengan mayoritas hakim yang setuju menolak permohonan Anies dan Ganjar..</p>
+                    <p><b>JAKARTA, KOMPAS.com </b> - Mahkamah Konstitusi (MK) telah memutus menolak permohonan sengketa
+                        Pilpres 2024 yang diajukan Anies Baswedan-Muhaimin Iskandar dan Ganjar Pranowo-Mahfud MD dalam
+                        sidang pembacaan putusan, Senin (22/4/2024).</p>
+                    <p>MK menyatakan seluruh dalil permohonan sengketa itu tidak beralasan menurut hukum, sehingga
+                        majelis hakim menolak permohonan para pemohon itu seluruhnya.</p>
+                    <p>Tiga hakim, yaitu Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat, menyampaikan ketidaksetujuan
+                        melalui pendapat berbeda (dissenting opinion), tetapi jumlah mereka kalah banyak (3 dari 8)
+                        dengan mayoritas hakim yang setuju menolak permohonan Anies dan Ganjar..</p>
                     <p>Apa saja poin-poin penting yang termaktub dalam putusan kemarin? Berikut rangkumannya:</p><br>
                     <!-- Point Pertama -->
                     <h2 style="text-align: start;">1. Pencalonan Gibran dianggap tidak bermasalah</h2>
-                    <p>Dalam gugatannya ke MK, kubu Anies Baswedan-Muhaimin Iskandar menilai Gibran tak memenuhi syarat administrasi, sebab KPU RI memproses pencalonan Gibran menggunakan Peraturan KPU (PKPU) Nomor 19 Tahun 2023.</p>
-                    <p>Dalam PKPU itu, syarat usia minimum masih menggunakan aturan lama sebelum putusan MK, yakni 40 tahun.</p>
-                    <p>Dewan Kehormatan Penyelenggara Pemilu (DKPP) juga telah menyatakan seluruh komisioner KPU RI melanggar etika dan menyebabkan ketidakpastian hukum terkait peristiwa itu.</p>
+                    <p>Dalam gugatannya ke MK, kubu Anies Baswedan-Muhaimin Iskandar menilai Gibran tak memenuhi syarat
+                        administrasi, sebab KPU RI memproses pencalonan Gibran menggunakan Peraturan KPU (PKPU) Nomor 19
+                        Tahun 2023.</p>
+                    <p>Dalam PKPU itu, syarat usia minimum masih menggunakan aturan lama sebelum putusan MK, yakni 40
+                        tahun.</p>
+                    <p>Dewan Kehormatan Penyelenggara Pemilu (DKPP) juga telah menyatakan seluruh komisioner KPU RI
+                        melanggar etika dan menyebabkan ketidakpastian hukum terkait peristiwa itu.</p>
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video"
+                            allowfullscreen></iframe>
                     </div><br>
-                    <p>Namun, MK menilai, KPU telah berinisiatif untuk memberi tahu adanya perubahan syarat usia capres-cawapres berdasarkan Putusan MK, melalui Surat Nomor 1145/PL.01-SD/05/2023 kepada Pimpinan Partai Politik Peserta Pemilu 2024.</p>
-                    <p>KPU juga dinilai telah memberi tahu bahwa mereka tidak bisa segera mengubah Peraturan KPU terkait syarat usia capres-cawapres, karena untuk melakukan itu mereka harus berkonsultasi dengan DPR dan pemerintah sedangkan DPR masih dalam masa reses saat itu.</p>
-                    <p>MK menilai, KPU terikat dengan jadwal dan tahapan pencalonan presiden dan wakil presiden meskipun wajib menerapkan putusan MK yang berpengaruh terhadap norma pencalonan itu sendiri.</p><br>
+                    <p>Namun, MK menilai, KPU telah berinisiatif untuk memberi tahu adanya perubahan syarat usia
+                        capres-cawapres berdasarkan Putusan MK, melalui Surat Nomor 1145/PL.01-SD/05/2023 kepada
+                        Pimpinan Partai Politik Peserta Pemilu 2024.</p>
+                    <p>KPU juga dinilai telah memberi tahu bahwa mereka tidak bisa segera mengubah Peraturan KPU terkait
+                        syarat usia capres-cawapres, karena untuk melakukan itu mereka harus berkonsultasi dengan DPR
+                        dan pemerintah sedangkan DPR masih dalam masa reses saat itu.</p>
+                    <p>MK menilai, KPU terikat dengan jadwal dan tahapan pencalonan presiden dan wakil presiden meskipun
+                        wajib menerapkan putusan MK yang berpengaruh terhadap norma pencalonan itu sendiri.</p><br>
                     <!-- Point ke 2 -->
                     <h2 class="text-start">2. Endorsement Jokowi bukan pelanggaran, tak ada politisasi bansos</h2>
-                    <p>MK menegaskan bahwa pemilu sebagai sebuah kompetisi tidak akan pernah menjadi pertandingan yang seimbang, terlebih jika terdapat kontestan petahana atau diasosiasikan dengan petahana.</p>
-                    <p>Oleh karena itu, Mahkamah menganggap "endorsement" yang diberikan Presiden Joko Widodo terhadap Prabowo Subianto-Gibran Rakabuming tidak melanggar hukum, walaupun bermasalah secara etika karena presiden seharusnya diletakkan pada posisi yang menaungi seluruh warga negara.</p>
-                    <p>MK juga menganggap pengaruh politisasi bantuan sosial terhadap pemenangan Prabowo-Gibran tidak terbukti dalam persidangan.</p>
+                    <p>MK menegaskan bahwa pemilu sebagai sebuah kompetisi tidak akan pernah menjadi pertandingan yang
+                        seimbang, terlebih jika terdapat kontestan petahana atau diasosiasikan dengan petahana.</p>
+                    <p>Oleh karena itu, Mahkamah menganggap "endorsement" yang diberikan Presiden Joko Widodo terhadap
+                        Prabowo Subianto-Gibran Rakabuming tidak melanggar hukum, walaupun bermasalah secara etika
+                        karena presiden seharusnya diletakkan pada posisi yang menaungi seluruh warga negara.</p>
+                    <p>MK juga menganggap pengaruh politisasi bantuan sosial terhadap pemenangan Prabowo-Gibran tidak
+                        terbukti dalam persidangan.</p>
                     <img src="../public/assets/image/news1/point 2.jpg" class="img-fluid" alt="..."><br>
-                    <p class="text-wrap note note-light mb-3">Presiden Republik Indonesia (RI) Joko Widodo bersama Menteri Pertanian (Mentan) Andi Amran Sulaiman saat meninjau panen raya jagung di Desa Kotaraja, Kecamatan Dulupi, Kabupaten Boalemo, Provinsi Gorontalo, Senin (22/4/2024).(DOK. Humas Kementan)</p>
-                    <p>MK berpandangan, tidak ada kejanggalan dan pelanggaran peraturan dalam penggunaan anggaran perlindungan sosial, khususnya bansos, yang digelontorkan pemerintah.</p>
-                    <p>Pasalnya, pelaksanaan anggaran telah diatur secara jelas mulai dari perencanaan, penganggaran, pelaksanaan, dan pertanggungjawabannya.</p><br>
+                    <p class="text-wrap note note-light mb-3">Presiden Republik Indonesia (RI) Joko Widodo bersama
+                        Menteri Pertanian (Mentan) Andi Amran Sulaiman saat meninjau panen raya jagung di Desa Kotaraja,
+                        Kecamatan Dulupi, Kabupaten Boalemo, Provinsi Gorontalo, Senin (22/4/2024).(DOK. Humas Kementan)
+                    </p>
+                    <p>MK berpandangan, tidak ada kejanggalan dan pelanggaran peraturan dalam penggunaan anggaran
+                        perlindungan sosial, khususnya bansos, yang digelontorkan pemerintah.</p>
+                    <p>Pasalnya, pelaksanaan anggaran telah diatur secara jelas mulai dari perencanaan, penganggaran,
+                        pelaksanaan, dan pertanggungjawabannya.</p><br>
                     <!-- Point Ke 3  -->
                     <h2 class="text-start">3. Dalil TSM mentah, Anies-Ganjar saling lirik dan tertawa</h2>
-                    <p>Anies dan Ganjar berulang kali melempar senyum ketika hakim menolak dalil-dalil mereka soal keberpihakan penjabat kepala daerah dan ASN dalam masa kampanye Pilpres 2024.</p>
-                    <p>Semua kasus-kasus yang disodorkan itu, mulai dari dugaan mobilisasi aparat desa dan pendidikan sampai dugaan pelanggaran kampanye oleh Menteri Perdagangan Zulkifli Hasan, mentah oleh Mahkamah Konstitusi (MK).</p>
-                    <p>Mahkamah menyebut, dalil-dalil berkaitan dengan pelanggaran secara terstruktur, sistematis, dan masif itu "tidak beralasan menurut hukum", kalimat yang selalu membuat  Anies dan Ganjar mengumbar tawa.</p>
-                    <p>Pada momen ketika MK menyatakan dalil dugaan mobilisasi aparat desa di Kabupaten Bogor tidak beralasan menurut hukum, Anies segera menengok ke sisi kanan ke arah Ganjar yang pada saat bersamaan juga menengok ke arahnya.</p>
-                    <p>Anies tersenyum lebar sembari menaikkan kedua alisnya kepada Ganjar. Sementara itu, Ganjar tersenyum lebar sebelum kemudian membetulkan posisi duduknya di ruang sidang.</p><br>
+                    <p>Anies dan Ganjar berulang kali melempar senyum ketika hakim menolak dalil-dalil mereka soal
+                        keberpihakan penjabat kepala daerah dan ASN dalam masa kampanye Pilpres 2024.</p>
+                    <p>Semua kasus-kasus yang disodorkan itu, mulai dari dugaan mobilisasi aparat desa dan pendidikan
+                        sampai dugaan pelanggaran kampanye oleh Menteri Perdagangan Zulkifli Hasan, mentah oleh Mahkamah
+                        Konstitusi (MK).</p>
+                    <p>Mahkamah menyebut, dalil-dalil berkaitan dengan pelanggaran secara terstruktur, sistematis, dan
+                        masif itu "tidak beralasan menurut hukum", kalimat yang selalu membuat Anies dan Ganjar
+                        mengumbar tawa.</p>
+                    <p>Pada momen ketika MK menyatakan dalil dugaan mobilisasi aparat desa di Kabupaten Bogor tidak
+                        beralasan menurut hukum, Anies segera menengok ke sisi kanan ke arah Ganjar yang pada saat
+                        bersamaan juga menengok ke arahnya.</p>
+                    <p>Anies tersenyum lebar sembari menaikkan kedua alisnya kepada Ganjar. Sementara itu, Ganjar
+                        tersenyum lebar sebelum kemudian membetulkan posisi duduknya di ruang sidang.</p><br>
                     <!-- Point ke 4 -->
                     <h2 class="text-start">4. Polemik Sirekap tak berpengaruh</h2>
-                    <p>MK juga mementahkan dalil permohonan sepanjang berkaitan dengan dugaan penggelembungan suara melalui Sistem Informasi Rekapitulasi (Sirekap) KPU RI.</p>
-                    <p>Kekacauan input perolehan suara dalam sistem tersebut, ditambah dengan ditutupnya akses Sirekap untuk publik, dianggap tidak berpengaruh terhadap perolehan suara riil, karena Sirekap tidak menjadi alat resmi penghitungan suara.</p>
-                    <p>Walau demikian, MK menegaskan bahwa jelas terdapat masalah yang menimbulkan kegaduhan dan ketidakpastian akibat masalah Sirekap ini, lalu majelis hakim menyarankan agar Sirekap dikelola oleh lembaga lain pada pemilu edisi berikutnya.</p>
+                    <p>MK juga mementahkan dalil permohonan sepanjang berkaitan dengan dugaan penggelembungan suara
+                        melalui Sistem Informasi Rekapitulasi (Sirekap) KPU RI.</p>
+                    <p>Kekacauan input perolehan suara dalam sistem tersebut, ditambah dengan ditutupnya akses Sirekap
+                        untuk publik, dianggap tidak berpengaruh terhadap perolehan suara riil, karena Sirekap tidak
+                        menjadi alat resmi penghitungan suara.</p>
+                    <p>Walau demikian, MK menegaskan bahwa jelas terdapat masalah yang menimbulkan kegaduhan dan
+                        ketidakpastian akibat masalah Sirekap ini, lalu majelis hakim menyarankan agar Sirekap dikelola
+                        oleh lembaga lain pada pemilu edisi berikutnya.</p>
                     <img src="../public/assets/image/news1/MK.jpg" class="img-fluid" alt=""><br>
-                    <p class="text-wrap text-secondary-emphasis">Ketua Mahkamah Konstitusi (MK) Suhartoyo (tengah) didampingi Hakim Konstitusi Saldi Isra (kiri) dan Arief Hidayat (kanan) memimpin jalannya sidang putusan perselisihan hasil Pilpres 2024 di Gedung Mahkamah Konstitusi, Jakarta, Senin (22/4/2024). ANTARA FOTO/M Risyal Hidayat/rwa.(ANTARA FOTO/M Risyal Hidayat)</p>
-                    <p>MK juga menyarankan perbaikan teknologi agar Sirekap dapat mencapai tujuan aslinya yakni sebagai alat bantu transparansi dan informasi penghitungan perolehan suara kepada masyarakat.</p><br>
+                    <p class="text-wrap text-secondary-emphasis">Ketua Mahkamah Konstitusi (MK) Suhartoyo (tengah)
+                        didampingi Hakim Konstitusi Saldi Isra (kiri) dan Arief Hidayat (kanan) memimpin jalannya sidang
+                        putusan perselisihan hasil Pilpres 2024 di Gedung Mahkamah Konstitusi, Jakarta, Senin
+                        (22/4/2024). ANTARA FOTO/M Risyal Hidayat/rwa.(ANTARA FOTO/M Risyal Hidayat)</p>
+                    <p>MK juga menyarankan perbaikan teknologi agar Sirekap dapat mencapai tujuan aslinya yakni sebagai
+                        alat bantu transparansi dan informasi penghitungan perolehan suara kepada masyarakat.</p><br>
                     <!-- Point ke 5 -->
                     <h2 class="text-start">5. Tiga hakim anggap perlu pemilu ulang</h2>
-                    <p>Pertama kali dalam sejarah, majelis hakim konstitusi tidak satu suara dalam putusan terkait sengketa Pilpres 2024.</p>
-                    <p>Hakim Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat, menilai dan meyakini bahwa telah terjadi sejumlah pelanggaran berkaitan dengan intervensi kekuasaan, mulai dari mobilisasi aparat hingga politisasi bansos, yang berpengaruh terhadap hasil Pilpres 2024 di sejumlah wilayah.</p>
-                    <p>Saldi dan Enny juga mengungkit bahwa terdapat kecenderungan Bawaslu tidak menindaklanjuti beberapa laporan terkait dugaan pelanggaran pemilu.</p>
-                    <p>Saldi meyakini terdapat masalah netralitas penjabat (Pj) kepala daerah dan pengerahan kepala desa di Sumatera Utara, Jakarta, Banten, Jawa Tengah, Kalimantan Barat, dan Sulawesi Selatan, sehingga Wakil Ketua MK itu merasa perlu digelar pemungutan suara ulang pada daerah dimaksud.</p>
-                    <p>Sementara itu, Arief Hidayat berpendapat seharusnya Mahkamah memerintahkan KPU RI untuk menghelat pemungutan suara ulang di DKI Jakarta, Jawa Barat, Jawa Tengah, Jawa Timur, Bali, dan Sumatera Utara.</p>
+                    <p>Pertama kali dalam sejarah, majelis hakim konstitusi tidak satu suara dalam putusan terkait
+                        sengketa Pilpres 2024.</p>
+                    <p>Hakim Saldi Isra, Enny Nurbaningsih, dan Arief Hidayat, menilai dan meyakini bahwa telah terjadi
+                        sejumlah pelanggaran berkaitan dengan intervensi kekuasaan, mulai dari mobilisasi aparat hingga
+                        politisasi bansos, yang berpengaruh terhadap hasil Pilpres 2024 di sejumlah wilayah.</p>
+                    <p>Saldi dan Enny juga mengungkit bahwa terdapat kecenderungan Bawaslu tidak menindaklanjuti
+                        beberapa laporan terkait dugaan pelanggaran pemilu.</p>
+                    <p>Saldi meyakini terdapat masalah netralitas penjabat (Pj) kepala daerah dan pengerahan kepala desa
+                        di Sumatera Utara, Jakarta, Banten, Jawa Tengah, Kalimantan Barat, dan Sulawesi Selatan,
+                        sehingga Wakil Ketua MK itu merasa perlu digelar pemungutan suara ulang pada daerah dimaksud.
+                    </p>
+                    <p>Sementara itu, Arief Hidayat berpendapat seharusnya Mahkamah memerintahkan KPU RI untuk menghelat
+                        pemungutan suara ulang di DKI Jakarta, Jawa Barat, Jawa Tengah, Jawa Timur, Bali, dan Sumatera
+                        Utara.</p>
                 </div>
             </div>
         </div>
@@ -120,8 +187,8 @@
         AOS.init();
     </script>
     <!-- JS -->
-    <script src="./bootstrap/js/bootstrap.js"></script>
-    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
