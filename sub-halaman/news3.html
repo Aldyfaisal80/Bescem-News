@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8" />
@@ -15,55 +15,58 @@
     <link rel="stylesheet" href="../src/css/main.css">
     <!-- AOS ANIMATION ON SCROOL -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="../src/js/app.js" defer></script>
     <title>BESCEM</title>
     <link rel="icon" type="image/x-icon" href="../public/assets/image/icon_BESCEM.png">
 </head>
 
-<body data-bs-theme="dark">
+<body>
     <!-- Navigation-->
-    <nav
-    class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center align-items-center"
-    style="width: 100%; height: 80px;" id="mainNav">
-    <div class="container px-4 px-lg-5">
-      <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="index.html">
-        <img class="rounded" style="width: 40px; line-height: 0;" src="./public/assets/image/icon_BESCEM.png" alt="">
-        BESCEM NEWS
-      </a>
-      <div class="btn-group">
-        <button class="btn nav-link btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end">
-          <li>
-            <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
-              data-bs-theme-value="light">
-              <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill"></i>
-              Light Mode
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item d-flex align-items-center opacity-75" type="button" data-bs-theme-value="dark">
-              <i class="bi bi-moon-fill me-2" data-theme-icon="bi-moon-fill"></i>
-              Dark Mode
-            </button>
-          </li>
-          <li>
-            <button class="dropdown-item d-flex align-items-center opacity-75" type="button" data-bs-theme-value="auto">
-              <i class="bi bi-circle-half me-2" data-theme-icon="bi-circle-half"></i>
-              Sistem Theme
-            </button>
-          </li>
-        </ul>
-      </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-flex justify-content-center align-items-center"
+        style="width: 100%; height: 80px;" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="index.html">
+                <img class="rounded" style="width: 40px; line-height: 0;" src="./public/assets/image/icon_BESCEM.png"
+                    alt="">
+                BESCEM NEWS
+            </a>
+            <div class="btn-group">
+                <button class="btn nav-link btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="bi bi-sun-fill theme-icon-active" data-theme-icon-active="bi-sun-fill"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="light">
+                            <i class="bi bi-sun-fill me-2" data-theme-icon="bi-sun-fill"></i>
+                            Light Mode
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="dark">
+                            <i class="bi bi-moon-fill me-2" data-theme-icon="bi-moon-fill"></i>
+                            Dark Mode
+                        </button>
+                    </li>
+                    <li>
+                        <button class="dropdown-item d-flex align-items-center opacity-75" type="button"
+                            data-bs-theme-value="auto">
+                            <i class="bi bi-circle-half me-2" data-theme-icon="bi-circle-half"></i>
+                            Sistem Theme
+                        </button>
+                    </li>
+                </ul>
+            </div>
+    </nav>
     <!-- Sub Judul -->
     <header class="img-fluid mb-5 p-4 d-flex flex-column justify-content-center align-content-center"
-    style="background-image: url(../public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
-    <div class="container position-relative px-4 px-lg-5">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-          <div class="site-heading">
+        style="background-image: url(../public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading text-light">
                         <h1>MK Tolak Seluruh Gugatan Pilpres 2024, Siapa Jadi Oposisi?</h1>
                         <span class="meta">
                             <b>BESCEM NEWS.com</b> - 24/04/2024, 00:00 WIB
@@ -83,88 +86,213 @@
                         perselisihan hasil pemilihan umum (PHPU) 2024.</p>
                     <p>Gestur senyum tersebut seakan mengekspresikan rasa syukur atas berakhirnya dinamika perselisian
                         hasil Pilpres 2024 yang dalam beberapa bulan terakhir telah menyita perhatian masyarakat.</p>
-                    <p>Ketua Umum Partai Gerindra ini pun mengucapkan rasa terima kasih kepada pihak-pihak yang telah mendukungnya serta bekerja keras untuk memenangkan pilpres 2024.</p>
-                    <p>"Terima kasih semua masyarakat, terima kasih dukungannya, terima kasih kepada Mahkamah Konstitusi (MK) yang sudah menjalankan tugas yang berat, saya kira itu saja. Terima kasih kepada semua unsur, semua pihak yang telah bekerja keras," ucapnya.</p>
-                    <p>Prabowo menyampaikan saat ini dirinya akan fokus memulai persiapan pemerintahan yang baru. Setelah nanti resmi ditetapkan dan dilantik sebagai Presiden bersama Gibran Rakabuming Raka selaku wakil presiden sah.</p>
-                    <p>"Dan kita sekarang tentunya lakukan persiapan-persiapan untuk menghadapi masa depan. Saya kira itu dari saya," kata dia.</p>
-                    <p>Mantan Pangkostrad itu masih enggan berbicara banyak soal hasil sengketa Pilpres di MK dan rencana kedepan. Dia memilih untuk menunggu momen penetapan oleh KPU yang akan digelar Rabu 24 April 2024</p>
-                    <p>Adapun dalam putusan perkara Perselisihan Hasil Pemilu Umum (PHPU) atau sengketa Pemilihan Presiden (Pilpres) 2024, MK telah menolak seluruh gugatan yang diajukan pasangan calon nomor urut 01 Anies Baswedan-Muhaimin Iskandar (AMIN) dan nomor urut 03 Ganjar Pranowo-Mahfud MD.</p>
-                    <p>Dalam putusannya, MK menyebutkan bahwa tak terbukti adanya intervensi Presiden serta kecurangan-kecurangan pemilu seperti yang dituduhkan kubu AMIN dan Ganjar-Mahfud</p>
-                    <p>Keputusan MK itu pun secara otomatis menguatkan kemenangan pasangan Prabowo-Gibran dalam Pilpres 2024, sekaligus mengakhiri perjalanan Anies-Muhaimin dan Ganjar-Mahfud di Pilpres 2024. dan pada saat yang sama, timbul pertanyaan besar kemana arah langkah politik yang akan diambil oleh koalisi parpol pendukung Anies dan Ganjar di pemerintahan selanjutnya, berkoalisi atau menjadi oposisi?</p>
+                    <p>Ketua Umum Partai Gerindra ini pun mengucapkan rasa terima kasih kepada pihak-pihak yang telah
+                        mendukungnya serta bekerja keras untuk memenangkan pilpres 2024.</p>
+                    <p>"Terima kasih semua masyarakat, terima kasih dukungannya, terima kasih kepada Mahkamah Konstitusi
+                        (MK) yang sudah menjalankan tugas yang berat, saya kira itu saja. Terima kasih kepada semua
+                        unsur, semua pihak yang telah bekerja keras," ucapnya.</p>
+                    <p>Prabowo menyampaikan saat ini dirinya akan fokus memulai persiapan pemerintahan yang baru.
+                        Setelah nanti resmi ditetapkan dan dilantik sebagai Presiden bersama Gibran Rakabuming Raka
+                        selaku wakil presiden sah.</p>
+                    <p>"Dan kita sekarang tentunya lakukan persiapan-persiapan untuk menghadapi masa depan. Saya kira
+                        itu dari saya," kata dia.</p>
+                    <p>Mantan Pangkostrad itu masih enggan berbicara banyak soal hasil sengketa Pilpres di MK dan
+                        rencana kedepan. Dia memilih untuk menunggu momen penetapan oleh KPU yang akan digelar Rabu 24
+                        April 2024</p>
+                    <p>Adapun dalam putusan perkara Perselisihan Hasil Pemilu Umum (PHPU) atau sengketa Pemilihan
+                        Presiden (Pilpres) 2024, MK telah menolak seluruh gugatan yang diajukan pasangan calon nomor
+                        urut 01 Anies Baswedan-Muhaimin Iskandar (AMIN) dan nomor urut 03 Ganjar Pranowo-Mahfud MD.</p>
+                    <p>Dalam putusannya, MK menyebutkan bahwa tak terbukti adanya intervensi Presiden serta
+                        kecurangan-kecurangan pemilu seperti yang dituduhkan kubu AMIN dan Ganjar-Mahfud</p>
+                    <p>Keputusan MK itu pun secara otomatis menguatkan kemenangan pasangan Prabowo-Gibran dalam Pilpres
+                        2024, sekaligus mengakhiri perjalanan Anies-Muhaimin dan Ganjar-Mahfud di Pilpres 2024. dan pada
+                        saat yang sama, timbul pertanyaan besar kemana arah langkah politik yang akan diambil oleh
+                        koalisi parpol pendukung Anies dan Ganjar di pemerintahan selanjutnya, berkoalisi atau menjadi
+                        oposisi?</p>
 
-                    <a href="#!"><img class="img-fluid" src="../public/assets/image/news3/INFOGRAFIS_HL_POIN-POIN_PENTING_PUTUSAN_MK.webp" alt="..." /></a>
-                    <p class="text-wrap text-secondary-emphasis">Infografis Poin-Poin Penting Putusan MK Tolak Gugatan Pilpres 2024.(Liputan6.com/Abdillah)</p><br>
+                    <a href="#!"><img class="img-fluid"
+                            src="../public/assets/image/news3/INFOGRAFIS_HL_POIN-POIN_PENTING_PUTUSAN_MK.webp"
+                            alt="..." /></a>
+                    <p class="text-wrap text-secondary-emphasis">Infografis Poin-Poin Penting Putusan MK Tolak Gugatan
+                        Pilpres 2024.(Liputan6.com/Abdillah)</p><br>
                     <h2 class="section-heading">Peta Koalisi-Oposisi Pasca-Putusan MK</h2>
-                    <p>Pengamat Politik dari Universitas Al Azhar Indonesia (UAI) Ujang Komarudin memprediksi akan banyak partai politik (Parpol) yang bakal bergabung ke koalisi Pemerintahan Prabowo Subianto-Gibran Rakabuming Raka pasca-putusan Mahkamah Konstitusi (MK).</p>
-                    <p>"Iya konstelasinya kemungkinan akan banyak parpol mengkonsolidasikan diri merapat ke pemerintahan. Pilihannya memang dua merapat atau menjadi oposisi, tapi saya melihat kebanyakan dari mereka yang kalah itu akan bergabung dengan pemerintahan," kata Ujang kepada BESCEM NEWS.com, Selasa (23/4/2024)</p>
-                    <p>Ujang juga mengatakan, pasangan Prabowo-Gibran tidak menutup kemungkinan akan mengajak parpol pengusung Anies Baswedan dan Ganjar Pranowo untuk masuk ke pemerintahan, lantaran saat ini postur koalisi 02 di parlemen masih kurang dari 50 persen.</p>
-                    <p>"Maka suka tidak suka kubu Prabowo-Gibran akan mengajak mereka yang kalah untuk masuk pemerintahan, yang kalah pun akan senang jika mereka masuk pemerintahan dan mendapat jabatan menteri atau jabatan-jabatan yang lain," ujarnya.</p>
-                    <p>Ujang lantas melakukan analisis terhadap parpol yang mendukung capres-cawapres nomor urut satu dan tiga, yang kemungkinan akan bergabung dalam koalisi pemerintahan Prabowo-Gibran.</p>
-                    <p>Dilihat dari dukungan parpol untuk Anies-Muhaimin, Ujang memperkirakan bahwa NasDem dan PKB kemungkinan besar tertarik untuk bergabung. Sedangkan untuk parpol pengusung Ganjar-Mahfud yang kemungkinan merapat yakni PPP.</p>
-                    <p>"Peta oposisi masih samar-samar, tapi kalo kita lihat dari konstruksi dan dinamika politik yang ada saat ini, maka kelihatannya yang saya lihat PKB, NasDem dan PPP kemungkinan besar akan masuk pemerintahan," ungkap Ujang.</p>
-                    <p>Di sisi lain, Ujang mengungkap ada sejumlah kemungkinan parpol pengusung Anies dan Ganjar untuk menjadi oposisi. Salah satu yang terkuat, yakni PDIP.</p>
-                    <p>"Kalau kita melihat konstruksi yang ada, yang terkuat untuk bisa menjadi oposisi ya PDIP. PDIP sudah teruji pada masa orde baru dan zaman pemerintahan SBY yang menjadi oposisi, dan ketika masuk pemerintahan Jokowi pun walaupun masuk pemerintahan masih sering menjadi oposan atau masih sering mengkritisi Jokowi," kata Ujang.</p>
-                    <p>"PKS sebenarnya juga solid, tapi tidak terlalu kuat. Yang paling oposisinya lincah dan galak ya itu cuma PDIP," sambungnya.</p>
-                    <p>Sementara itu, Pengamat Politik sekaligus Direktur Eksekutif Voxpol, Pangi Syarwi Chaniago mengatakan bahwa PDIP dan PKS memiliki potensi kuat untuk menjadi oposisi dalam roda pemerintahan selanjutnya di era Presiden Prabowo Subianto.</p>
-                    <p>"Saya pikir potensinya kuat baik PKS maupun PDIP, tapi kalo PDIP saya meyakini 80 persen jadi oposisi tapi kalo untuk PKS saya masih 50-50, apakah PKS ini sangat punya daya tahan untuk oposisi 15 tahun dan kalau dilakukan, maka PKS termasuk rekor MURI partai oposisi terlama sepanjang sejarah di indonesia," kata dia kepada <b>BESCEM NEWS.com,</b> Selasa (23/4/2024).</p>
-                    <p>Pria yang akrab disapa Ipang ini menilai, PDIP sejatinya memiliki pengalaman yang lebih matang menjadi oposisi ketimbang partai lain seperti PKS, hal ini dikarenakan pengalaman PDIP yang mampu rebound saat menjadi oposisi di pemerintahan SBY dan kemudian di pemerintahan selanjutnya menjadi pemenang.</p>
-                    <p>"Karena memang kalo kita lihat pengalaman di PDIP ketika menjadi oposisi itu bisa menang dalam pemilu dan menang calon presidennya itu memang menjadi salah satu yang PKS dengan Demokrat agak kesulitan menjadi oposisi," ujarnya.</p>
-                    <p>PDIP, lanjut Ipang, juga memiliki ketegasan dalam hal menjadi oposisi, dan tidak setengah hati dalam membawa peran untuk kemajuan demokrasi di Indonesia.</p>
-                    <p>"Kalau PDIP oposisi biasanya bukan main dan tidak setengah hati betul-betul oposisi yang sehat bagi demokrasi kita," kata dia.</p>
-                    <p>Menurut Ipang, menjadi oposisi memang bukan sesuatu yang mudah, namun bukan tidak mulia juga menjadi oposisi karena itu menjadi salah satu cara untuk menyelamatkan wajah wibawa demokrasi.</p>
-                    <p>"Adanya partai oposisi sebagai check and balances terhadap kebijakan program, yang tidak semua harus diamini oleh pemerintah, tidak semua harus diikuti, justru tidak ada kritik akan bahaya untuk demokrasi dan kualitas demokrasi kita. Saya kira begitu," pungkasnya.</p><br>
-                    
+                    <p>Pengamat Politik dari Universitas Al Azhar Indonesia (UAI) Ujang Komarudin memprediksi akan
+                        banyak partai politik (Parpol) yang bakal bergabung ke koalisi Pemerintahan Prabowo
+                        Subianto-Gibran Rakabuming Raka pasca-putusan Mahkamah Konstitusi (MK).</p>
+                    <p>"Iya konstelasinya kemungkinan akan banyak parpol mengkonsolidasikan diri merapat ke
+                        pemerintahan. Pilihannya memang dua merapat atau menjadi oposisi, tapi saya melihat kebanyakan
+                        dari mereka yang kalah itu akan bergabung dengan pemerintahan," kata Ujang kepada BESCEM
+                        NEWS.com, Selasa (23/4/2024)</p>
+                    <p>Ujang juga mengatakan, pasangan Prabowo-Gibran tidak menutup kemungkinan akan mengajak parpol
+                        pengusung Anies Baswedan dan Ganjar Pranowo untuk masuk ke pemerintahan, lantaran saat ini
+                        postur koalisi 02 di parlemen masih kurang dari 50 persen.</p>
+                    <p>"Maka suka tidak suka kubu Prabowo-Gibran akan mengajak mereka yang kalah untuk masuk
+                        pemerintahan, yang kalah pun akan senang jika mereka masuk pemerintahan dan mendapat jabatan
+                        menteri atau jabatan-jabatan yang lain," ujarnya.</p>
+                    <p>Ujang lantas melakukan analisis terhadap parpol yang mendukung capres-cawapres nomor urut satu
+                        dan tiga, yang kemungkinan akan bergabung dalam koalisi pemerintahan Prabowo-Gibran.</p>
+                    <p>Dilihat dari dukungan parpol untuk Anies-Muhaimin, Ujang memperkirakan bahwa NasDem dan PKB
+                        kemungkinan besar tertarik untuk bergabung. Sedangkan untuk parpol pengusung Ganjar-Mahfud yang
+                        kemungkinan merapat yakni PPP.</p>
+                    <p>"Peta oposisi masih samar-samar, tapi kalo kita lihat dari konstruksi dan dinamika politik yang
+                        ada saat ini, maka kelihatannya yang saya lihat PKB, NasDem dan PPP kemungkinan besar akan masuk
+                        pemerintahan," ungkap Ujang.</p>
+                    <p>Di sisi lain, Ujang mengungkap ada sejumlah kemungkinan parpol pengusung Anies dan Ganjar untuk
+                        menjadi oposisi. Salah satu yang terkuat, yakni PDIP.</p>
+                    <p>"Kalau kita melihat konstruksi yang ada, yang terkuat untuk bisa menjadi oposisi ya PDIP. PDIP
+                        sudah teruji pada masa orde baru dan zaman pemerintahan SBY yang menjadi oposisi, dan ketika
+                        masuk pemerintahan Jokowi pun walaupun masuk pemerintahan masih sering menjadi oposan atau masih
+                        sering mengkritisi Jokowi," kata Ujang.</p>
+                    <p>"PKS sebenarnya juga solid, tapi tidak terlalu kuat. Yang paling oposisinya lincah dan galak ya
+                        itu cuma PDIP," sambungnya.</p>
+                    <p>Sementara itu, Pengamat Politik sekaligus Direktur Eksekutif Voxpol, Pangi Syarwi Chaniago
+                        mengatakan bahwa PDIP dan PKS memiliki potensi kuat untuk menjadi oposisi dalam roda
+                        pemerintahan selanjutnya di era Presiden Prabowo Subianto.</p>
+                    <p>"Saya pikir potensinya kuat baik PKS maupun PDIP, tapi kalo PDIP saya meyakini 80 persen jadi
+                        oposisi tapi kalo untuk PKS saya masih 50-50, apakah PKS ini sangat punya daya tahan untuk
+                        oposisi 15 tahun dan kalau dilakukan, maka PKS termasuk rekor MURI partai oposisi terlama
+                        sepanjang sejarah di indonesia," kata dia kepada <b>BESCEM NEWS.com,</b> Selasa (23/4/2024).</p>
+                    <p>Pria yang akrab disapa Ipang ini menilai, PDIP sejatinya memiliki pengalaman yang lebih matang
+                        menjadi oposisi ketimbang partai lain seperti PKS, hal ini dikarenakan pengalaman PDIP yang
+                        mampu rebound saat menjadi oposisi di pemerintahan SBY dan kemudian di pemerintahan selanjutnya
+                        menjadi pemenang.</p>
+                    <p>"Karena memang kalo kita lihat pengalaman di PDIP ketika menjadi oposisi itu bisa menang dalam
+                        pemilu dan menang calon presidennya itu memang menjadi salah satu yang PKS dengan Demokrat agak
+                        kesulitan menjadi oposisi," ujarnya.</p>
+                    <p>PDIP, lanjut Ipang, juga memiliki ketegasan dalam hal menjadi oposisi, dan tidak setengah hati
+                        dalam membawa peran untuk kemajuan demokrasi di Indonesia.</p>
+                    <p>"Kalau PDIP oposisi biasanya bukan main dan tidak setengah hati betul-betul oposisi yang sehat
+                        bagi demokrasi kita," kata dia.</p>
+                    <p>Menurut Ipang, menjadi oposisi memang bukan sesuatu yang mudah, namun bukan tidak mulia juga
+                        menjadi oposisi karena itu menjadi salah satu cara untuk menyelamatkan wajah wibawa demokrasi.
+                    </p>
+                    <p>"Adanya partai oposisi sebagai check and balances terhadap kebijakan program, yang tidak semua
+                        harus diamini oleh pemerintah, tidak semua harus diikuti, justru tidak ada kritik akan bahaya
+                        untuk demokrasi dan kualitas demokrasi kita. Saya kira begitu," pungkasnya.</p><br>
+
                     <h2 class="section-heading">Teka-Teki Langkah Politik PDIP Pasca-Putusan MK</h2>
                     <a href="#!"><img class="img-fluid" src="../public/assets/image/news3/pks.webp" alt="..." /></a>
-                    <p class="text-wrap text-secondary-emphasis">DPP PDIP menggelar rapat koordinasi nasional pada Senin (22/4/2024) malam. (Liputan6.com/Delvira Hutabarat)</p>
-                    <p>Pengamat Politik Airlangga Pribadi mengatakan, banyak pihak yang sudah menunggu langkah PDIP dalam pemerintahan ke depan pasca-putusan MK soal perselisihan hasil pemiluhan umum (PHPU) atau sengketa Pilpres 2024.</p>
-                    <p>Menurut dia, jika seandainya opsi bergabung, hal ini tak akan menjadi hambatan lantaran Prabowo mempunyai relasi politik yang baik dengan Ketua Umum PDIP Megawati Soekarnoputri yang dibangun sejak 2009.</p>
-                    <p>"Sinyalemen dari Prabowo untuk menerima dengan tangan terbuka PDI Perjuangan yang ditandai akan dilakukannya pertemuan antara Prabowo dan Megawati menunjukkan arah kerjasama antara dua kekuatan politik tersebut," kata Airlangga dalam keterangannya, Selasa (23/4/2024).</p>
-                    <p>Selain itu, menurut akademisi Universitas Airlangga (Unair) ini, situasi geopolitik global dan domestik saat ini akibat pasca-pandemi Covid-19 serta berbagai potensi perang yang terjadi, diperlukan langkah keseimbangan politik di Indonesia.</p>
-                    <p>"Dalam kondisi sosial ekonomi seperti ini maka diperlukan langkah politik yang hati-hati untuk dapat menjaga keseimbangan politik dan meredam potensi polarisasi politik yang dapat mengarah pada situasi chaos politik," jelas Airlangga.</p>
-                    <p>Dia melihat, sikap Prabowo untuk tidak melakukan aksi ke jalan saat pembacaan putusan MK, sepertinya juga menjadi kalkulasi yang menjadi pertimbangan dari PDIP dalam menimbang posisi politiknya.</p>
-                    <p>"Hal tersebut sepertinya akan dibangun berdasarkan pertimbangan rekonsiliasi politik dan persatuan nasional untuk menghadapi kemungkinan goncangan-goncangan sosial yang banyak disulut oleh dinamika geo-ekonomi politik dunia," ungkap Airlangga.</p>
-                    <p>Selain itu, terkait situasi demokrasi yang dipandang mengalami krisis, PDIP bisa tetap melakukan di dalam pemerintahan.</p>
-                    <p>"Dengan mengambil opsi di luar oposisi politik, PDI Perjuangan menjaga agar partai jangan sekedar mengambil sikap yang berbeda dengan kebijakan pemerintah. Sehingga legitimasi pemerintah untuk menangani kondisi krisis akan tetap terjaga," ujarnya.</p>
-                    <p>"Jalan politik yang akan dipilih oleh PDI Perjuangan jika benar bergabung dengan koalisi pemerintah adalah tetap mengawal dan memberi masukan dalam relasi yang lebih dekat dengan pemerintah terkait dengan isu-isu demokrasi, sekaligus berkontribusi sebagai bagian yang memiliki otoritas politik dan melakukan eksekusi politik dalam posisi sebagai bagian dari lembaga eksekutif," sambung Airlangga.</p>
-                    <p>Selain itu, dia melihat sebagai pemenang Pilpres 2024, PDIP mempunyai nilai tawar politik yang tinggi, di mana sangat menguatkan koalisi pemerintah dalam pengelolaan negara dalam pemerintahan yang akan terbentuk.</p>
-                    <p>"Hal yang menjadi catatan adalah pada momentum yang tepat bagi arah terbentuknya negosiasi dan rekonsiliasi politik di antara PDI Perjuangan dengan koalisi pemenang Pilpres 2024," pungkasnya.</p><br>
+                    <p class="text-wrap text-secondary-emphasis">DPP PDIP menggelar rapat koordinasi nasional pada Senin
+                        (22/4/2024) malam. (Liputan6.com/Delvira Hutabarat)</p>
+                    <p>Pengamat Politik Airlangga Pribadi mengatakan, banyak pihak yang sudah menunggu langkah PDIP
+                        dalam pemerintahan ke depan pasca-putusan MK soal perselisihan hasil pemiluhan umum (PHPU) atau
+                        sengketa Pilpres 2024.</p>
+                    <p>Menurut dia, jika seandainya opsi bergabung, hal ini tak akan menjadi hambatan lantaran Prabowo
+                        mempunyai relasi politik yang baik dengan Ketua Umum PDIP Megawati Soekarnoputri yang dibangun
+                        sejak 2009.</p>
+                    <p>"Sinyalemen dari Prabowo untuk menerima dengan tangan terbuka PDI Perjuangan yang ditandai akan
+                        dilakukannya pertemuan antara Prabowo dan Megawati menunjukkan arah kerjasama antara dua
+                        kekuatan politik tersebut," kata Airlangga dalam keterangannya, Selasa (23/4/2024).</p>
+                    <p>Selain itu, menurut akademisi Universitas Airlangga (Unair) ini, situasi geopolitik global dan
+                        domestik saat ini akibat pasca-pandemi Covid-19 serta berbagai potensi perang yang terjadi,
+                        diperlukan langkah keseimbangan politik di Indonesia.</p>
+                    <p>"Dalam kondisi sosial ekonomi seperti ini maka diperlukan langkah politik yang hati-hati untuk
+                        dapat menjaga keseimbangan politik dan meredam potensi polarisasi politik yang dapat mengarah
+                        pada situasi chaos politik," jelas Airlangga.</p>
+                    <p>Dia melihat, sikap Prabowo untuk tidak melakukan aksi ke jalan saat pembacaan putusan MK,
+                        sepertinya juga menjadi kalkulasi yang menjadi pertimbangan dari PDIP dalam menimbang posisi
+                        politiknya.</p>
+                    <p>"Hal tersebut sepertinya akan dibangun berdasarkan pertimbangan rekonsiliasi politik dan
+                        persatuan nasional untuk menghadapi kemungkinan goncangan-goncangan sosial yang banyak disulut
+                        oleh dinamika geo-ekonomi politik dunia," ungkap Airlangga.</p>
+                    <p>Selain itu, terkait situasi demokrasi yang dipandang mengalami krisis, PDIP bisa tetap melakukan
+                        di dalam pemerintahan.</p>
+                    <p>"Dengan mengambil opsi di luar oposisi politik, PDI Perjuangan menjaga agar partai jangan sekedar
+                        mengambil sikap yang berbeda dengan kebijakan pemerintah. Sehingga legitimasi pemerintah untuk
+                        menangani kondisi krisis akan tetap terjaga," ujarnya.</p>
+                    <p>"Jalan politik yang akan dipilih oleh PDI Perjuangan jika benar bergabung dengan koalisi
+                        pemerintah adalah tetap mengawal dan memberi masukan dalam relasi yang lebih dekat dengan
+                        pemerintah terkait dengan isu-isu demokrasi, sekaligus berkontribusi sebagai bagian yang
+                        memiliki otoritas politik dan melakukan eksekusi politik dalam posisi sebagai bagian dari
+                        lembaga eksekutif," sambung Airlangga.</p>
+                    <p>Selain itu, dia melihat sebagai pemenang Pilpres 2024, PDIP mempunyai nilai tawar politik yang
+                        tinggi, di mana sangat menguatkan koalisi pemerintah dalam pengelolaan negara dalam pemerintahan
+                        yang akan terbentuk.</p>
+                    <p>"Hal yang menjadi catatan adalah pada momentum yang tepat bagi arah terbentuknya negosiasi dan
+                        rekonsiliasi politik di antara PDI Perjuangan dengan koalisi pemenang Pilpres 2024," pungkasnya.
+                    </p><br>
 
-                    <h2 class="section-heading">Sikap Politik PDIP ke Depan Bakal Diputuskan dalam Rakernas Bulan Mei</h2>
+                    <h2 class="section-heading">Sikap Politik PDIP ke Depan Bakal Diputuskan dalam Rakernas Bulan Mei
+                    </h2>
                     <a href="#!"><img class="img-fluid" src="../public/assets/image/news3/pks.webp" alt="..." /></a>
-                    <p class="text-wrap text-secondary-emphasis">Ketua DPP PDI Perjuangan Ahmad Basarah saat ditemui awak media di kantor DPP PDIP, Jakarta, Senin (22/4/2024). (Liputan6.com/Delvira Hutabarat)</p>
-                    <p>Sebelumnya, Ketua DPP PDI Perjuangan Ahmad Basarah mengatakan, partainya siap berada di dalam pemerintahan ataupun oposisi. Menurutnya, PDIP sudah terbiasa bertahan dalam berbagai iklim dan dinamika politik Tanah Air</p>
-                    <p>“Ketika Bung Karno mendirikan PNI 4 Juli 1927, di dalam masa hegemoni kolonialisme itu, kita kemudian mampu survive dan mengantarkan Indonesia merdeka bersama parpol-parpol lain,” kata Basarah di kantor DPP PDIP, Jakarta, Senin 22 April 2024.</p>
-                    <p>Basarah menuturkan, ketangguhan PDIP berada di dalam maupun luar pemerintahan telah teruji. Ia mencontohkan, ketika masa Orde Baru banyak menerima intimidasi politik, tetapi PDI mampu bertahan dan menjadi pemenang Pemilu 1999.</p>
-                    <p>“Pernah berada di luar pemerintahan maksud saya, dan masuk lagi di dalam pemerintahan selama 10 tahun,” tuturnya.</p>
-                    <p>Basarah mengungkapkan, sikap politik PDIP lima tahun ke depan akan ditentukan dalam Rapat Kerja Nasional (Rakernas) yang digelar Mei mendatang. Pada Rakernas itu, seluruh struktur partai bakal memberikan masukan kepada Ketum PDIP Megawati Soekarnoputri tentang posisi politik partai menjadi bagian pemerintah atau oposan.</p>
-                    <p>“Memberikan usulan kepada Ibu Megawati Sukarnoputri selaku ketua umum PDIP pemegang hak prerogatif kongres untuk kemudian disanalah (Rakernas) PDIP akan menentukan sikap politiknya. Akan berada di dalam atau di luar pemerintahan,” ungkapnya.</p>
-                    <p>Lebih lanjut, Basarah menuturkan, seluruh struktur partai berhak memberikan masukan ke Megawati soal posisi berkoalisi atau menjadi oposisi. Akan tetapi, Megawati memiliki hak prerogatif untuk menentukan arah politik PDIP ke depan.</p>
-                    <p>“Jadi apapun keputusan Ibu Mega kelak, maka seluruh kader PDIP akan siap berada di dalam maupun di luar pemerintahan. Karena kita dilatih, kita dididik sebagai seorang kader yang harus mampu hidup dalam segala cuaca dan dinamika politik nasional,” pungkasnya.</p>
-                    <p>Sementara itu, Sekjen DPP PDIP Hasto Kristiyanto menyampaikan terima kasih pada rakyat yang telah membantu membawa kemenangan untuk ketiga kalinya dalam Pemilihan Legislatif (Pileg) 2024.</p>
-                    <p>"Pada kesempatan ini PDI Perjuangan juga mengucapkan terima kasih kepada seluruh rakyat Indonesia yang telah memberikan kepercayaan kepada PDI Perjuanagan sehingga meskipun tantanganya sangat berat tetapi PDI Perjuangan mendapatkan kepercayaan rakyat menang pemilu legislatif tiga kali berturut-turut," kata Hasto.</p>
-                    <p>Hasto menyampaikan, di sisi lain terjadi peningkatan perolehan suara di tingkat kabupaten dan kota. Hal itu menunjukan adanya keinginan dari Akar Rumput yang mendambakan demokrasi yang berkekuatan rakyat.</p>
-                    <p>Artinya dukungan dari Akar Rumput kekuatan rakyat yang memimpin nurani dan mendambakan demokrasi yang berkekuatan rakyat telah ditunjukan," ungkapnya.</p>
-                    <p>Hasto mengatakan, jika kenaikan perolehan suara PDIP di tingkat daerah menunjukkan kekuatan sejati partai.</p>
-                    <p>"Dukungan di Akar Rumput dengan penambahan perolehan kursi di tingkat Kabupaten/Kota ini menunjukkan kekuatan yang sejati dari PDI Perjuangan sebagai partai nasional Soekarnois yang menyatu dengan kekuatan rakyat," pungkasnya</p><br>
+                    <p class="text-wrap text-secondary-emphasis">Ketua DPP PDI Perjuangan Ahmad Basarah saat ditemui
+                        awak media di kantor DPP PDIP, Jakarta, Senin (22/4/2024). (Liputan6.com/Delvira Hutabarat)</p>
+                    <p>Sebelumnya, Ketua DPP PDI Perjuangan Ahmad Basarah mengatakan, partainya siap berada di dalam
+                        pemerintahan ataupun oposisi. Menurutnya, PDIP sudah terbiasa bertahan dalam berbagai iklim dan
+                        dinamika politik Tanah Air</p>
+                    <p>“Ketika Bung Karno mendirikan PNI 4 Juli 1927, di dalam masa hegemoni kolonialisme itu, kita
+                        kemudian mampu survive dan mengantarkan Indonesia merdeka bersama parpol-parpol lain,” kata
+                        Basarah di kantor DPP PDIP, Jakarta, Senin 22 April 2024.</p>
+                    <p>Basarah menuturkan, ketangguhan PDIP berada di dalam maupun luar pemerintahan telah teruji. Ia
+                        mencontohkan, ketika masa Orde Baru banyak menerima intimidasi politik, tetapi PDI mampu
+                        bertahan dan menjadi pemenang Pemilu 1999.</p>
+                    <p>“Pernah berada di luar pemerintahan maksud saya, dan masuk lagi di dalam pemerintahan selama 10
+                        tahun,” tuturnya.</p>
+                    <p>Basarah mengungkapkan, sikap politik PDIP lima tahun ke depan akan ditentukan dalam Rapat Kerja
+                        Nasional (Rakernas) yang digelar Mei mendatang. Pada Rakernas itu, seluruh struktur partai bakal
+                        memberikan masukan kepada Ketum PDIP Megawati Soekarnoputri tentang posisi politik partai
+                        menjadi bagian pemerintah atau oposan.</p>
+                    <p>“Memberikan usulan kepada Ibu Megawati Sukarnoputri selaku ketua umum PDIP pemegang hak
+                        prerogatif kongres untuk kemudian disanalah (Rakernas) PDIP akan menentukan sikap politiknya.
+                        Akan berada di dalam atau di luar pemerintahan,” ungkapnya.</p>
+                    <p>Lebih lanjut, Basarah menuturkan, seluruh struktur partai berhak memberikan masukan ke Megawati
+                        soal posisi berkoalisi atau menjadi oposisi. Akan tetapi, Megawati memiliki hak prerogatif untuk
+                        menentukan arah politik PDIP ke depan.</p>
+                    <p>“Jadi apapun keputusan Ibu Mega kelak, maka seluruh kader PDIP akan siap berada di dalam maupun
+                        di luar pemerintahan. Karena kita dilatih, kita dididik sebagai seorang kader yang harus mampu
+                        hidup dalam segala cuaca dan dinamika politik nasional,” pungkasnya.</p>
+                    <p>Sementara itu, Sekjen DPP PDIP Hasto Kristiyanto menyampaikan terima kasih pada rakyat yang telah
+                        membantu membawa kemenangan untuk ketiga kalinya dalam Pemilihan Legislatif (Pileg) 2024.</p>
+                    <p>"Pada kesempatan ini PDI Perjuangan juga mengucapkan terima kasih kepada seluruh rakyat Indonesia
+                        yang telah memberikan kepercayaan kepada PDI Perjuanagan sehingga meskipun tantanganya sangat
+                        berat tetapi PDI Perjuangan mendapatkan kepercayaan rakyat menang pemilu legislatif tiga kali
+                        berturut-turut," kata Hasto.</p>
+                    <p>Hasto menyampaikan, di sisi lain terjadi peningkatan perolehan suara di tingkat kabupaten dan
+                        kota. Hal itu menunjukan adanya keinginan dari Akar Rumput yang mendambakan demokrasi yang
+                        berkekuatan rakyat.</p>
+                    <p>Artinya dukungan dari Akar Rumput kekuatan rakyat yang memimpin nurani dan mendambakan demokrasi
+                        yang berkekuatan rakyat telah ditunjukan," ungkapnya.</p>
+                    <p>Hasto mengatakan, jika kenaikan perolehan suara PDIP di tingkat daerah menunjukkan kekuatan
+                        sejati partai.</p>
+                    <p>"Dukungan di Akar Rumput dengan penambahan perolehan kursi di tingkat Kabupaten/Kota ini
+                        menunjukkan kekuatan yang sejati dari PDI Perjuangan sebagai partai nasional Soekarnois yang
+                        menyatu dengan kekuatan rakyat," pungkasnya</p><br>
 
                     <h2 class="section-heading">Sikap Politik PKS ke Depan Akan Ditentukan oleh Majelis Syuro</h2>
                     <a href="#!"><img class="img-fluid" src="../public/assets/image/news3/pks.webp" alt="..." /></a>
-                    <p class="text-wrap text-secondary-emphasis">Presiden PKS Ahmad Syaikhu melakukan pertemuan dengan Anies-Muhaimin di Kantor DPP PKS, Jakarta, Selasa (23/4/2024). (Tim News).</p>
-                    <p>Sementara itu, Presiden Partai Keadilan Sejahtera (PKS) Ahmad Syaiku mengatakan, terkait sikap politik partainya di pemerintahan Prabowo Subianto-Gibran Rakabuming Raka akan diputuskan melalui majelis syuro.</p>
-                    <p>"Tentu saya sampaikan, karena ranah ini menyangkut ranah yang strategis sesuai AD/ART PKS, ini akan diputuskan majelis syuro atau Badan Pekerja Majelis Syuro yaitu DPP. Saya sebagai pelaksana akan menjalankan apapun keputusan majelis syuro," kata Syaikhu di Kantor DPP PKS, Jakarta, Selasa (23/4/2024).</p>
-                    <p>Meski menyerahkan putusan itu kepada BPMS DPP PKS, partai yang dipimpinnya itu ditegakkan akan tetap menjaga sikap kritisnya untuk di pemerintahan Prabowo-Gibran.</p>
-                    <p>"Tapi yakinlah sikap kritis PKS akan kita jaga sebagai bagian untuk meluruskan dari proses perjalanan yang memang perlu diingatkan," ungkap Syaikhu.</p>
-                    <p>"Kalau seluruhnya on the track tidak perlu diingatkan enggak masalah, tapi kaitannya dengan tadi sikap kritis masalah sikap bangsa perlu ada koreksi kita akan perlu sampaikan kita sudah memahami," tegasnya.</p>
-                    <p>Meski akan menunggu putusan BPMS DPP PKS, dirinya mengaku belum ada kepastian bakal ditentukan.</p>
+                    <p class="text-wrap text-secondary-emphasis">Presiden PKS Ahmad Syaikhu melakukan pertemuan dengan
+                        Anies-Muhaimin di Kantor DPP PKS, Jakarta, Selasa (23/4/2024). (Tim News).</p>
+                    <p>Sementara itu, Presiden Partai Keadilan Sejahtera (PKS) Ahmad Syaiku mengatakan, terkait sikap
+                        politik partainya di pemerintahan Prabowo Subianto-Gibran Rakabuming Raka akan diputuskan
+                        melalui majelis syuro.</p>
+                    <p>"Tentu saya sampaikan, karena ranah ini menyangkut ranah yang strategis sesuai AD/ART PKS, ini
+                        akan diputuskan majelis syuro atau Badan Pekerja Majelis Syuro yaitu DPP. Saya sebagai pelaksana
+                        akan menjalankan apapun keputusan majelis syuro," kata Syaikhu di Kantor DPP PKS, Jakarta,
+                        Selasa (23/4/2024).</p>
+                    <p>Meski menyerahkan putusan itu kepada BPMS DPP PKS, partai yang dipimpinnya itu ditegakkan akan
+                        tetap menjaga sikap kritisnya untuk di pemerintahan Prabowo-Gibran.</p>
+                    <p>"Tapi yakinlah sikap kritis PKS akan kita jaga sebagai bagian untuk meluruskan dari proses
+                        perjalanan yang memang perlu diingatkan," ungkap Syaikhu.</p>
+                    <p>"Kalau seluruhnya on the track tidak perlu diingatkan enggak masalah, tapi kaitannya dengan tadi
+                        sikap kritis masalah sikap bangsa perlu ada koreksi kita akan perlu sampaikan kita sudah
+                        memahami," tegasnya.</p>
+                    <p>Meski akan menunggu putusan BPMS DPP PKS, dirinya mengaku belum ada kepastian bakal ditentukan.
+                    </p>
                     <p>"Belum ada (deadline), belum ada penetapannya kapan," pungkas Syaikhu.</p>
-                    <p>Di samping itu, Syaikhu turut mengucapkan selamat kepada Prabowo Subianto-Gibran Rakabuming Raka menjadi Calon Presiden dan Calon Wakil Presiden terpilih pada Pemilihan Presiden (Pilpres) 2024.</p>
-                    <p>"Saya ingin sampaikan juga, kami Partai Keadilan Sejahtera mengucapkan selamat bertugas pada Bapak Prabowo Subianto dan Bapak Gibran Rakabuming Raka. Semoga Allah subhanahu wa ta'ala senantiasa memberikan bimbingan, petunjuk dan perlindungannya," kata Syaikhu.</p>
-                    <p>Selain itu, ia juga tak lupa mengucapkan rasa terimakasih kepada Anies Rasyid Baswedan-Muhaimin Iskandar alias Cak Imin yang telah berkompetisi dalam Pilpres 2024.</p>
+                    <p>Di samping itu, Syaikhu turut mengucapkan selamat kepada Prabowo Subianto-Gibran Rakabuming Raka
+                        menjadi Calon Presiden dan Calon Wakil Presiden terpilih pada Pemilihan Presiden (Pilpres) 2024.
+                    </p>
+                    <p>"Saya ingin sampaikan juga, kami Partai Keadilan Sejahtera mengucapkan selamat bertugas pada
+                        Bapak Prabowo Subianto dan Bapak Gibran Rakabuming Raka. Semoga Allah subhanahu wa ta'ala
+                        senantiasa memberikan bimbingan, petunjuk dan perlindungannya," kata Syaikhu.</p>
+                    <p>Selain itu, ia juga tak lupa mengucapkan rasa terimakasih kepada Anies Rasyid Baswedan-Muhaimin
+                        Iskandar alias Cak Imin yang telah berkompetisi dalam Pilpres 2024.</p>
                     <p>Placeholder text by
                         <a href="https://www.liputan6.com/news">Liputan6</a>
                         &middot; Images by
-                        <a href="https://www.liputan6.com/news/read/5579768/headline-usai-putusan-mk-tolak-seluruh-gugatan-pilpres-2024-siapa-jadi-oposisi?page=4">Pilpers 2024</a>
+                        <a
+                            href="https://www.liputan6.com/news/read/5579768/headline-usai-putusan-mk-tolak-seluruh-gugatan-pilpres-2024-siapa-jadi-oposisi?page=4">Pilpers
+                            2024</a>
                     </p>
                 </div>
             </div>
