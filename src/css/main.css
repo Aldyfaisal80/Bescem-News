@@ -13,5 +13,42 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/*# sourceMappingURL=main.css.map */
+@media (min-width: 992px) {
+  #mainNav {
+    transition: background-color 0.2s;
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  #mainNav.is-fixed {
+    position: fixed;
+    top: -83px;
+    transition: transform 0.2s;
+    /* border-bottom: 1px solid white; */
+    background-color: transparent;
+  }
+  #mainNav.is-fixed .navbar-brand {
+    /* color: #212529; */
+    color: var(--bg-body-bs);
+  }
+  #mainNav.is-fixed .navbar-brand:focus {
+    color: #0085A1;
+  }
+  #mainNav.is-fixed .navbar-brand:hover {
+    color: #0085A1;
+  }
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+    color: #212529;
+  }
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus {
+    color: #0085A1;
+  }
+  #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+    color: #0085A1;
+  }
+  #mainNav.is-visible {
+    transform: translate3d(0, 100%, 0);
+  }
+}
 
+/*# sourceMappingURL=main.css.map */

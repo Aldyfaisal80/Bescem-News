@@ -15,16 +15,14 @@
   <link rel="stylesheet" href="./src/css/main.css">
   <!-- AOS ANIMATION ON SCROOL -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="./src/js/app.js" defer></script>
   <title>BESCEM</title>
   <link rel="icon" type="image/x-icon" href="./public/assets/image/icon_BESCEM.png">
 </head>
 
 <body>
   <!-- Navigation-->
-  <nav
-    class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top d-flex justify-content-center align-items-center"
-    style="width: 100%; height: 80px;" id="mainNav">
+  <nav id="mainNav" class="navbar navbar-expand-lg navbar-light d-flex justify-content-center align-items-center"
+    style="width: 100%; height: 80px;">
     <div class="container px-4 px-lg-5">
       <a class="navbar-brand d-flex align-items-center justify-content-center gap-2" href="index.html">
         <img class="rounded" style="width: 40px; line-height: 0;" src="./public/assets/image/icon_BESCEM.png" alt="">
@@ -57,10 +55,11 @@
           </li>
         </ul>
       </div>
+    </div>
   </nav>
   <!-- Page Header-->
   <header class="img-fluid mb-5 p-4 d-flex flex-column justify-content-center align-content-center text-center"
-    style="margin-top: 80px; background-image: url(./public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
+    style="background-image: url(./public/assets/image/sidang-lawak.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: 615px;">
     <div class="container position-relative px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
@@ -75,22 +74,23 @@
   <!-- Main Content-->
   <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
-      <div class="d-flex flex-column col-md-10 col-lg-8 col-xl-7 gap-5 hover-zoom">
+      <div
+        class="d-flex flex-column col-md-10 col-lg-8 col-xl-7 gap-5 border border-light-subtle p-4 shadow-sm hover-zoom">
         <!-- Post preview-->
         <!-- button Besar -->
         <a href="./sub-halaman/news1.html">
           <button data-aos="fade-right" type="button" class="g-col-6 btn btn-outline-light text-light fs-1"
-            style="background-image: url(./public/assets/image/5point.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">5
+            style="background-image: url(./public/assets/image/news1/news-1-foto.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">5
             Poin Penting Putusan MK yang Tolak Gugatan Sengketa Pilpres Ganjar dan Anies</button>
         </a>
         <a href="./sub-halaman/news2.html">
           <button data-aos="fade-left" type="button" class="g-col-6 btn btn-outline-light text-light fs-1"
-            style="background-image: url(./public/assets/image/5point.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">MK
+            style="background-image: url(./public/assets/image/page2img.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">MK
             Tolak Permohonan Sengketa Pilpres Ganjar-Mahfud</button>
         </a>
         <a href="./sub-halaman/news3.html">
           <button data-aos="fade-up" type="button" class="g-col-6 btn btn-outline-light text-light fs-1"
-            style="background-image: url(./public/assets/image/5point.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">
+            style="background-image: url(./public/assets/image/news3/3.webp); background-position: center; background-repeat: no-repeat; background-size: cover; width: 100%; height: auto; padding: 20px 50px;">
             MK Tolak Seluruh Gugatan Pilpres 2024, Siapa Jadi Oposisi?</button>
         </a>
         <!-- Divider-->
@@ -136,17 +136,19 @@
   </footer>
   <!-- JS Dark Mode -->
   <!-- <script>
-    function myFuction() {
-      var element = document.body
-      element.dataset.bsTheme =
-        element.dataset.bsTheme == "light" ? "dark" : "light"
-    }
-    </script> -->
+  function myFuction() {
+    var element = document.body
+    element.dataset.bsTheme =
+    element.dataset.bsTheme == "light" ? "dark" : "light"
+  }
+</script> -->
   <!-- AOS ANIMATION ON SCROOL -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  <!-- app.js -->
+  <script src="./src/js/app.js"></script>
   <!-- JS -->
   <script src="./bootstrap/js/bootstrap.js"></script>
   <script src="./bootstrap/js/bootstrap.bundle.js"></script>

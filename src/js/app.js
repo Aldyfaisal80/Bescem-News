@@ -85,4 +85,36 @@ window.addEventListener("DOMContentLoaded", () => {
                 });
             });
         });
-    })())   
+    })())
+
+
+// Animasi Navbar
+window.addEventListener('DOMContentLoaded', () => {
+    let scrollPos = 0;
+    const mainNav = document.getElementById('mainNav');
+    const headerHeight = mainNav.offsetHeight; // Menggunakan offsetHeight untuk mendapatkan tinggi navbar yang akurat
+
+    const handleScroll = () => {
+        const currentTop = window.pageYOffset || document.documentElement.scrollTop; // Mendapatkan posisi scroll saat ini
+
+        if (currentTop < scrollPos) {
+            // Scrolling Up
+            if (currentTop > 0 && !mainNav.classList.contains('is-visible')) {
+                mainNav.classList.add('is-visible');
+            } else {
+                mainNav.classList.remove('is-visible', 'is-fixed');
+            }
+        } else {
+            // Scrolling Down
+            mainNav.classList.remove('is-visible');
+            if (currentTop > headerHeight && !mainNav.classList.contains('is-fixed')) {
+                // mainNaw.classList.add(getPreferredTheme())
+                mainNav.classList.add('is-fixed');
+            }
+        }
+
+        scrollPos = currentTop;
+    };
+
+    window.addEventListener('scroll', handleScroll);
+});

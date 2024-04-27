@@ -25,3 +25,54 @@ $font-onest: "Onest", sans-serif;
 body {
     font-family: $font-poppins;
 }
+
+// 
+// Navbar
+// 
+
+// Global styling for the navbar
+
+$color_1: #212529;
+$color_2: #0085A1;
+$background-color_1: rgba(255, 255, 255, 0.9);
+
+@media (min-width: 992px) {
+	#mainNav {
+		transition: background-color 0.2s;
+		transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+	#mainNav.is-fixed {
+		position: fixed;
+		top: -83px;
+		transition: transform 0.2s;
+		border-bottom: 1px solid white;
+		background-color: $background-color_1;
+		.navbar-brand {
+			color: $color_1;
+			&:focus {
+				color: $color_2;
+			}
+			&:hover {
+				color: $color_2;
+			}
+		}
+		.navbar-nav {
+			>li.nav-item {
+				>a {
+					color: $color_1;
+					&:focus {
+						color: $color_2;
+					}
+					&:hover {
+						color: $color_2;
+					}
+				}
+			}
+		}
+	}
+	#mainNav.is-visible {
+		transform: translate3d(0, 100%, 0);
+	}
+}
