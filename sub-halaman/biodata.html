@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../src/css/biodata.css" />
+    <!-- AOS ANIMATION ON SCROOL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>BESCEM</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../public/assets/image/icon_BESCEM.png"
+    />
+  </head>
+  <body>
+    <div class="" style="display: flex; justify-content: center; flex-direction: column; align-items: center;  ">
+      <a class="" href="../index.html">
+        <button type="button" class="btn btn-secondary btn-sm">Kembali</button>
+      </a>
+      <h1 class="title d-flex col">Biodata Anggota Kelompok 5</h1>
+    </div>
+    <div>
+      <div id="app" class="container"></div>
+    </div>
+
+    <script>
+      const images = [
+        {
+          url: "../public/assets/image/anggota-kelompok/aldy.png",
+          title: "Aldy Ibnu Faisal",
+        },
+        {
+          url: "../public/assets/image/anggota-kelompok/Eka.jpg",
+          title: "Eka Prasetiawan",
+        },
+        {
+          url: "../public/assets/image/anggota-kelompok/Erwan.jpg",
+          title: "Erwan ",
+        },
+        {
+          url: "../public/assets/image/anggota-kelompok/ARDI.jpg",
+          title: "Muhammad Lazuardi",
+        },
+        {
+          url: "../public/assets/image/anggota-kelompok/jonathan.jpg",
+          title: "Jonathan Setya",
+        },
+        {
+          url: "../public/assets/image/anggota-kelompok/Ramadan.jpg",
+          title: "Setyo Ari Ramadhan",
+        },
+      ];
+
+      const container = document.getElementById("app");
+
+      images.forEach((image) => {
+        const cardWrap = document.createElement("div");
+        cardWrap.classList.add("card-wrap");
+
+        const card = document.createElement("div");
+        card.classList.add("card");
+
+        const cardBg = document.createElement("div");
+        cardBg.classList.add("card-bg");
+        cardBg.style.backgroundImage = `url(${image.url})`;
+
+        const cardInfo = document.createElement("div");
+        cardInfo.classList.add("card-info");
+
+        const title = document.createElement("h1");
+        title.textContent = image.title;
+
+        const content = document.createElement("p");
+        content.textContent = "Teknik Informatika (TI - 4A)";
+
+        cardInfo.appendChild(title);
+        cardInfo.appendChild(content);
+
+        card.appendChild(cardBg);
+        card.appendChild(cardInfo);
+
+        cardWrap.appendChild(card);
+        container.appendChild(cardWrap);
+
+        let width, height, mouseX, mouseY;
+
+        const handleMouseMove = (e) => {
+          const rect = card.getBoundingClientRect();
+          mouseX = e.clientX - rect.left - width / 2;
+          mouseY = e.clientY - rect.top - height / 2;
+
+          const rX = (mouseX / width) * 30;
+          const rY = (mouseY / height) * -30;
+          const tX = (mouseX / width) * -40;
+          const tY = (mouseY / height) * -40;
+
+          card.style.transform = `rotateY(${rX}deg) rotateX(${rY}deg)`;
+          cardBg.style.transform = `translateX(${tX}px) translateY(${tY}px)`;
+        };
+
+        const handleMouseEnter = () => {
+          width = card.offsetWidth;
+          height = card.offsetHeight;
+          cardWrap.addEventListener("mousemove", handleMouseMove);
+        };
+
+        const handleMouseLeave = () => {
+          card.style.transform = "";
+          cardBg.style.transform = "";
+          cardWrap.removeEventListener("mousemove", handleMouseMove);
+        };
+
+        cardWrap.addEventListener("mouseenter", handleMouseEnter);
+        cardWrap.addEventListener("mouseleave", handleMouseLeave);
+      });
+    </script>
+    <script src="../src/js/app.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
